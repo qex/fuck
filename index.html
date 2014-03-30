@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" manifest="cache.appcache">
+<head>
+  <meta charset="utf-8">
+  <title>求婚大作战</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="format-detection" content="telephone=no" />
+
+  <meta property="og:title" content="2048 game"/>
+  <meta property="og:site_name" content="2048 game"/>
+  <meta property="og:description" content="Join the numbers and get to the 2048 tile! Careful: this game is extremely addictive!"/>
+  <meta property="og:image" content="http://gabrielecirulli.github.io/2048/meta/og_image.png"/>
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">马叉虫</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <p class="game-intro">向着 <strong>结婚</strong> 的目标奔跑吧骚年</p>
+      <a class="restart-button">重新开始人生</a>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+          <a class="tweet">分享到微博</a>
+	        <a class="keep-playing-button">继续走下去</a>
+          <a class="retry-button">重试</a>
+          <div class="score-sharing"></div>
+          <div class="mailing-list">
+            <form action="#" method="post" name="mc-embedded-subscribe-form" class="mailing-list-form" target="_blank">
+              <input type="text" value="" name="EMAIL" class="mailing-list-email-field" placeholder="发表评论" spellcheck="false">
+              <div style="position: absolute; left: -9999px;">
+                <input type="text" name="b_991201206817cfb4e4247ed6c_7928ea817b" value="">
+              </div>
+              <input type="submit" value="Go" name="subscribe" class="mailing-list-subscribe-button">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">好兔普累：</strong> 使用 <strong>方向键</strong> 或 <strong>WASD</strong> 或 <strong>HJKL</strong> 将所有方块移往同一方向，触屏设备可直接 <strong>滑手指</strong>。移动方向上任意两个相接触的相同方块将会合并为一个新的方块。
+    </p>
+    <p>
+      P.S. 如果觉得上面那段话不好理解，只要按 <strong>方向键</strong> 就好了。
+    </p>
+    <hr>
+    <p>
+    <strong class="important">版权声明：</strong> 本项目源代码取自 <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli</a> 的开源作品 <a href="http://gabrielecirulli.github.io/2048" target="_blank">http://gabrielecirulli.github.io/2048</a>。该作品基于 <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a>，和 <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer</a> 有所相像。
+    </p>
+    <hr>
+    <p>
+    秋高气爽晴方好，相逢一炮泯恩仇。愿每一个等待的好姑娘都能保得住不死欲望，守得住年少轻狂，甩得开矫饰忧伤。<br />
+    那么，你一定会等到你的专属臭流氓和痴情老色狼。
+    </p>
+  </div>
+
+  <script src="js/bind_polyfill.js"></script>
+  <script src="js/classlist_polyfill.js"></script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_storage_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+
+</body>
+</html>
